@@ -54,14 +54,9 @@
             key-positions = <14 15>;
         };
 
-        combo9 {
-            bindings = <&kp ENTER>;
-            key-positions = <19 20>;
-        };
-
-        combo10 {
-            bindings = <&mo 0>;
-            key-positions = <11 12>;
+        pw {
+            bindings = <&pw>;
+            key-positions = <41 33>;
         };
     };
 
