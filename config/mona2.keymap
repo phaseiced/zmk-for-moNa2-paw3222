@@ -108,7 +108,7 @@
 &kp LCTRL       &kp LALT        &kp LEFT_GUI  &lt 2 ESC         &lt 1 SPACE  &lt 5 TAB      &lt 5 ENTER    &lt 2 BACKSPACE                                                   &kp RCTRL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             display-name = "BASE";
         };
 
