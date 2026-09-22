@@ -97,6 +97,15 @@
         };
     };
 
+    macros {
+        pw: pw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&pw &kp>;
+            label = "PW";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
