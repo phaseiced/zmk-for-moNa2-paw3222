@@ -60,7 +60,7 @@
         };
 
         combo10 {
-            bindings = <&mo 5>;
+            bindings = <&mo 0>;
             key-positions = <11 12>;
         };
     };
@@ -105,7 +105,7 @@
 &kp B           &kp L           &kp D         &kp C             &kp V                                      &kp J        &kp Y              &kp O        &kp U            &kp SEMICOLON
 &hm LEFT_GUI N  &hm LEFT_ALT R  &hm T D       &hm LEFT_SHIFT S  &kp G                       &kp PAGE_UP    &kp P        &hm RIGHT_SHIFT H  &hm RCTRL A  &hm RIGHT_ALT E  &hm RIGHT_GUI I
 &kp X           &kp Q           &kp M         &kp W             &kp Z        &mo 4          &kp PAGE_DOWN  &kp K        &kp F              &kp COMMA    &kp PERIOD       &kp SLASH
-&kp LCTRL       &kp LALT        &kp LEFT_GUI  &kp ESCAPE        &lt 1 SPACE  &lt 2 TAB      &kp BACKSPACE  &lt 2 ENTER                                                   &kp RCTRL
+&kp LCTRL       &kp LALT        &kp LEFT_GUI  &lt 2 ESC         &lt 1 SPACE  &lt 2 TAB      &kp BACKSPACE  &lt 2 ENTER                                                   &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -124,7 +124,7 @@
             display-name = "NUM";
         };
 
-        layer_2 {
+        NAV {
             bindings = <
 &kp ESC   &trans  &trans  &trans  &trans                      &trans  &kp HOME        &kp UP_ARROW  &kp END    &bootloader
 &kp CAPS  &trans  &trans  &trans  &trans              &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp DELETE
@@ -133,7 +133,7 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
-            display-name = "SYM";
+            display-name = "NAV";
         };
 
         MOUSE {
@@ -158,18 +158,6 @@
 
             sensor-bindings = <&scroll_up_down>;
             display-name = "BT";
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-            display-name = "SCROLL";
         };
     };
 };
