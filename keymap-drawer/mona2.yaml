@@ -13,7 +13,7 @@ layers:
   - ;
   - {t: N, h: LEFT GUI}
   - {t: R, h: LEFT ALT}
-  - {t: D, h: LCTRL}
+  - {t: T, h: LCTRL}
   - {t: S, h: LEFT SHIFT}
   - G
   - PAGE UP
