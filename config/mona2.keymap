@@ -102,10 +102,10 @@
 
         BASE {
             bindings = <
-&kp B           &kp L           &kp D         &kp C             &kp V                                      &kp J        &kp Y              &kp O        &kp U            &kp SEMICOLON
-&hm LEFT_GUI N  &hm LEFT_ALT R  &hm T D       &hm LEFT_SHIFT S  &kp G                       &kp PAGE_UP    &kp P        &hm RIGHT_SHIFT H  &hm RCTRL A  &hm RIGHT_ALT E  &hm RIGHT_GUI I
-&kp X           &kp Q           &kp M         &kp W             &kp Z        &mo 4          &kp PAGE_DOWN  &kp K        &kp F              &kp COMMA    &kp PERIOD       &kp SLASH
-&kp LCTRL       &kp LALT        &kp LEFT_GUI  &lt 2 ESC         &lt 1 SPACE  &lt 2 TAB      &kp BACKSPACE  &lt 2 ENTER                                                   &kp RCTRL
+&kp B           &kp L           &kp D         &kp C             &kp V                                      &kp J            &kp Y              &kp O        &kp U            &kp SEMICOLON
+&hm LEFT_GUI N  &hm LEFT_ALT R  &hm T D       &hm LEFT_SHIFT S  &kp G                       &kp PAGE_UP    &kp P            &hm RIGHT_SHIFT H  &hm RCTRL A  &hm RIGHT_ALT E  &hm RIGHT_GUI I
+&kp X           &kp Q           &kp M         &kp W             &kp Z        &mo 4          &kp PAGE_DOWN  &kp K            &kp F              &kp COMMA    &kp PERIOD       &kp SLASH
+&kp LCTRL       &kp LALT        &kp LEFT_GUI  &lt 2 ESC         &lt 1 SPACE  &lt 5 TAB      &lt 5 ENTER    &lt 2 BACKSPACE                                                   &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -138,10 +138,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans    &trans     &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans              &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans    &trans    &trans     &trans  &trans      &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
-&trans  &trans    &trans    &kp LCTRL  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans    &trans    &trans     &trans                             &trans  &trans    &trans    &trans    &trans
+&trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans              &kp PG_UP      &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans    &trans    &trans     &trans  &trans      &kp PAGE_DOWN  &trans  &mkp MB4  &trans    &mkp MB5  &trans
+&trans  &trans    &trans    &kp LCTRL  &trans  &trans      &trans         &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -158,6 +158,15 @@
 
             sensor-bindings = <&scroll_up_down>;
             display-name = "BT";
+        };
+
+        SYM {
+            bindings = <
+&kp PERIOD  &kp TILDE  &kp PIPE  &kp AMPERSAND  &kp ASTERISK                      &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp CARET  &kp PERCENT
+&trans      &trans     &trans    &trans         &trans                    &trans  &trans     &trans          &trans           &trans     &trans
+&trans      &trans     &trans    &trans         &trans        &trans      &trans  &trans     &trans          &trans           &trans     &trans
+&trans      &trans     &trans    &trans         &trans        &trans      &trans  &trans                                                 &trans
+            >;
         };
     };
 };
