@@ -100,7 +100,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        BASE {
             bindings = <
 &kp B           &kp L           &kp D         &kp C             &kp V                                      &kp J        &kp Y              &kp O        &kp U            &kp SEMICOLON
 &hm LEFT_GUI N  &hm LEFT_ALT R  &hm T D       &hm LEFT_SHIFT S  &kp G                       &kp PAGE_UP    &kp P        &hm RIGHT_SHIFT H  &hm RCTRL A  &hm RIGHT_ALT E  &hm RIGHT_GUI I
