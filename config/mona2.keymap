@@ -126,7 +126,7 @@
 
         NAV {
             bindings = <
-&kp ESC                 &trans              &trans         &trans             &trans                                  &kp LC(HOME)  &kp HOME        &kp UP_ARROW  &kp END    &kp LC(END)
+&kp ESC                 &trans              &kp K_BACK     &kp K_FORWARD      &kp F5                                  &kp LC(HOME)  &kp HOME        &kp UP_ARROW  &kp END    &kp LC(END)
 &kp LG(LC(LEFT_ARROW))  &kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp LG(LC(RIGHT))  &kp LG(TAB)              &kp PG_UP      &trans        &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp DELETE
 &trans                  &trans              &trans         &trans             &trans       &trans      &kp PAGE_DOWN  &trans        &trans          &trans        &trans     &trans
 &trans                  &trans              &trans         &trans             &trans       &trans      &trans         &trans                                                 &trans
