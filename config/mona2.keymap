@@ -126,10 +126,10 @@
 
         NAV {
             bindings = <
-&kp ESC   &trans  &trans  &trans  &trans                      &trans  &kp HOME        &kp UP_ARROW  &kp END    &bootloader
-&kp CAPS  &trans  &trans  &trans  &trans              &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp DELETE
-&trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans        &trans     &trans
-&trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans                                           &trans
+&kp ESC  &trans  &trans                  &trans             &trans                                  &kp LC(HOME)  &kp HOME        &kp UP_ARROW  &kp END    &kp LC(END)
+&trans   &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT))  &kp LG(TAB)              &kp PG_UP      &trans        &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp DELETE
+&trans   &trans  &trans                  &trans             &trans       &trans      &kp PAGE_DOWN  &trans        &trans          &trans        &trans     &trans
+&trans   &trans  &trans                  &trans             &trans       &trans      &trans         &trans                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
