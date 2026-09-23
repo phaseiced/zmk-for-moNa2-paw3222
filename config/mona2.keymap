@@ -15,17 +15,15 @@
         compatible = "zmk,combos";
 
         combo1 {
-            timeout-ms = <100>;
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <2 3>;
-            slow-release;
+            layers = <0>;
         };
 
         combo2 {
-            timeout-ms = <100>;
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
-            slow-release;
+            layers = <0>;
         };
 
         combo3 {
