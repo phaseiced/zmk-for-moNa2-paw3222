@@ -15,43 +15,59 @@
         compatible = "zmk,combos";
 
         combo1 {
+            timeout-ms = <100>;
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <2 3>;
+            slow-release;
         };
 
         combo2 {
+            timeout-ms = <100>;
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
+            slow-release;
         };
 
         combo3 {
+            timeout-ms = <100>;
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <12 13>;
+            slow-release;
         };
 
         combo4 {
+            timeout-ms = <100>;
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 17>;
+            key-positions = <17 18>;
+            slow-release;
         };
 
         combo5 {
+            timeout-ms = <100>;
             bindings = <&kp LEFT_BRACE>;
             key-positions = <23 24>;
+            slow-release;
         };
 
         combo6 {
+            timeout-ms = <100>;
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <29 30>;
+            slow-release;
         };
 
         combo7 {
-            bindings = <&kp NON_US_BACKSLASH>;
+            timeout-ms = <150>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <4 5>;
+            slow-release;
         };
 
         combo8 {
+            timeout-ms = <150>;
             bindings = <&kp PIPE>;
             key-positions = <14 15>;
+            slow-release;
         };
     };
 
