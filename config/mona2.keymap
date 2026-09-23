@@ -67,6 +67,11 @@
             key-positions = <14 15>;
             slow-release;
         };
+
+        undescore {
+            bindings = <&kp UNDER>;
+            key-positions = <7 8>;
+        };
     };
 
     behaviors {
