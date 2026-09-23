@@ -77,6 +77,11 @@
             bindings = <&kp AMPERSAND>;
             key-positions = <25 27>;
         };
+
+        type {
+            bindings = <&type0>;
+            key-positions = <41 33>;
+        };
     };
 
     behaviors {
