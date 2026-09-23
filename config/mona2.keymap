@@ -115,7 +115,7 @@
         type0: type0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N3 &kp N0 &kp N0 &kp DLLR &kp LS(L) &kp I &kp P &kp K &kp N &kp O &kp LS(T) &kp N3 &kp N5 &kp N3>;
+            bindings = <&kp N3 &kp N0 &kp N0 &kp DLLR &kp LS(L) &kp I &kp P &kp K &kp N &kp O &kp LS(T) &kp N3 &kp N5>;
             label = "TYPE0";
         };
     };
