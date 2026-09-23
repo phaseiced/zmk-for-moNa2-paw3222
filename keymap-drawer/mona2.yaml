@@ -42,7 +42,7 @@ layers:
   - {t: TAB, h: SYM}
   - {t: ENTER, h: SYM}
   - {t: BACKSPACE, h: NAV}
-  - RCTRL
+  - {t: DELETE, h: MOUSE}
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   BT:
   - F1
   - {t: ▽, type: trans}
