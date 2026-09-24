@@ -84,7 +84,7 @@
         };
 
         CSP {
-            bindings = <&none>;
+            bindings = <&CSP>;
             key-positions = <21 10 33>;
         };
     };
