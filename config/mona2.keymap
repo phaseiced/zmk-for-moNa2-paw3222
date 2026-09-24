@@ -82,6 +82,11 @@
             bindings = <&type0>;
             key-positions = <41 33>;
         };
+
+        CSP {
+            bindings = <&none>;
+            key-positions = <21 10 33>;
+        };
     };
 
     behaviors {
@@ -123,6 +128,13 @@
             bindings = <&kp N3 &kp N0 &kp N0 &kp DLLR &kp LS(L) &kp I &kp P &kp K &kp N &kp O &kp LS(T) &kp N3 &kp N5>;
             label = "TYPE0";
         };
+
+        CSP: CSP {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(P))>;
+            label = "CSP";
+        };
     };
 
     keymap {
@@ -136,7 +148,7 @@
 &kp LCTRL       &kp LALT        &kp LEFT_GUI  &lt 2 ESC         &lt 1 SPACE  &lt 5 TAB      &lt 5 ENTER    &lt 2 BACKSPACE                                                   &lt 3 DELETE
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
             display-name = "BASE";
         };
 
