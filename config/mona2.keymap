@@ -96,10 +96,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            quick-tap-ms = <180>;
+            quick-tap-ms = <150>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
         };
 
         ltq: ltq {
