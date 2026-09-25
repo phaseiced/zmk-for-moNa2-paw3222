@@ -34,7 +34,7 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
+  - MOUSE
   - LALT
   - LEFT GUI
   - {t: ESC, h: NAV}
@@ -42,13 +42,13 @@ layers:
   - {t: TAB, h: SYM}
   - {t: ENTER, h: SYM}
   - {t: BACKSPACE, h: NAV}
-  - {t: DELETE, h: MOUSE}
+  - DEL
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&calc'
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -163,7 +163,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB5'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   BT:
   - F1
   - {t: ▽, type: trans}
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   SYM:
-  - .
+  - ''''
   - '~'
   - '|'
   - '&'
