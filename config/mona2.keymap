@@ -152,7 +152,7 @@
 &kp B           &kp L           &kp D        &kp C             &kp V                                      &kp J            &kp Y              &kp O        &kp U            &kp SEMICOLON
 &hm LEFT_GUI N  &hm LEFT_ALT R  &hm LCTRL T  &hm LEFT_SHIFT S  &kp G                       &kp PAGE_UP    &kp P            &hm RIGHT_SHIFT H  &hm RCTRL A  &hm RIGHT_ALT E  &hm RIGHT_WIN I
 &kp X           &kp Q           &kp M        &kp W             &kp Z        &mo 4          &kp PAGE_DOWN  &kp K            &kp F              &kp COMMA    &kp PERIOD       &kp SLASH
-&kt CAPSLOCK    &kp LALT        &tog 3       &lt 2 ESC         &lt 1 SPACE  &lt 5 TAB      &lt 5 ENTER    &lt 2 BACKSPACE                                                   &kp DEL
+&kt CAPSLOCK    &kp LALT        &to 3        &lt 2 ESC         &lt 1 SPACE  &lt 5 TAB      &lt 5 ENTER    &lt 2 BACKSPACE                                                   &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
@@ -188,7 +188,7 @@
 &none   &trans    &trans    &trans     &trans                             &trans  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &kp C_AC_ZOOM_IN
 &none   &mkp MB1  &mkp MB3  &mkp MB2   &trans              &kp PG_UP      &trans  &mkp MB1        &mkp MB3        &mkp MB2         &kp C_AC_ZOOM_OUT
 &trans  &trans    &trans    &trans     &trans  &trans      &kp PAGE_DOWN  &trans  &mkp MB4        &msc SCRL_DOWN  &mkp MB5         &trans
-&trans  &trans    &tog 0    &kp LCTRL  &trans  &trans      &trans         &trans                                                   &trans
+&trans  &trans    &none     &kp LCTRL  &trans  &to 0       &trans         &trans                                                   &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
