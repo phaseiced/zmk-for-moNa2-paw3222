@@ -34,9 +34,9 @@ layers:
   - ','
   - .
   - /
-  - MOUSE
+  - {t: CAPSLOCK, h: toggle}
   - LALT
-  - LEFT GUI
+  - {t: MOUSE, h: toggle}
   - {t: ESC, h: NAV}
   - {t: SPACE, h: NUM}
   - {t: TAB, h: SYM}
@@ -130,17 +130,17 @@ layers:
   - {type: held alternate}
   - {t: ▽, type: trans}
   MOUSE:
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - AC ZOOM IN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - AC ZOOM IN
-  - AC ZOOM OUT
+  - ''
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -160,12 +160,12 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - '&mkp MB4'
-  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
   - '&mkp MB5'
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: BASE, h: toggle}
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
