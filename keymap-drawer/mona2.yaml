@@ -165,10 +165,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BASE, h: toggle}
+  - ''
   - LCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BASE, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
