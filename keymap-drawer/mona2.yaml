@@ -49,7 +49,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&calc'
-  - {t: ▽, type: trans}
+  - KP EQUAL
   - '7'
   - '8'
   - '9'
