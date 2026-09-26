@@ -131,9 +131,9 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - UP ARROW
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
@@ -141,9 +141,9 @@ layers:
   - '&msc SCRL_RIGHT'
   - AC ZOOM IN
   - ''
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - PG UP
   - {t: ▽, type: trans}
@@ -166,12 +166,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: BASE, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - SPACE
+  - TAB
+  - ENTER
+  - BACKSPACE
+  - DELETE
   BT:
   - F1
   - {t: ▽, type: trans}
