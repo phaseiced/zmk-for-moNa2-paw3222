@@ -130,20 +130,20 @@ layers:
   - {type: held alternate}
   - {t: ▽, type: trans}
   MOUSE:
-  - ''
-  - HOME
-  - UP ARROW
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
   - AC ZOOM IN
-  - ''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
   - {t: ▽, type: trans}
@@ -165,7 +165,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - ESC
   - SPACE
   - TAB
