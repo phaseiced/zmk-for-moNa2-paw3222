@@ -92,9 +92,9 @@ layers:
   - BACK
   - FORWARD
   - F5
+  - {t: ▽, type: trans}
   - Ctl+HOME
   - HOME
-  - UP ARROW
   - END
   - Ctl+END
   - Gui+Ctl+LEFT ARROW
@@ -104,10 +104,10 @@ layers:
   - Gui+TAB
   - PG UP
   - {t: ▽, type: trans}
-  - LEFT ARROW
+  - LEFT
   - DOWN
+  - UP
   - RIGHT
-  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
